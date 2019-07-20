@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <!-- this is where i link to the stylesheet -->
+  <head>
+    <meta charset="utf-8" />
+
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+
+
+
+  <body>
+    <header id="masthead">
+      <div class="container">
+          <a href="index.html" id="logo">Sean Leif Hellier</a>
+
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main   -->
+    <div id="main-container" class="container">
+      <section class="main-section">
+        <h1>Contact</h1>
+
+        <form id="contact-form">
+            <ul>
+              <li>
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="email"
+                  placeholder="John Smith"
+                  required="required"
+                />
+
+                <!-- <input[type=submit] {
+                  background-color: #4CAF50;
+                  color: white;
+                  padding: 12px 20px;
+                  border: none;
+                  border-radius: 4px;
+                  cursor: pointer;
+                }
+                /> -->
+
+
+                <!-- <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="John Smith"
+                  required="required"
+                /> -->
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="example@somewhere.com"
+                  required="required"
+                />
+              </li>
+  
+                <li>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required="required">
+                    </textarea>
+                </li>
+            </ul>
+            <input type="submit" name="submit">
+          </form>  
+      </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        &copy; Copyright 2019 Sean Leif Hellier
+      </div>
+    </footer>
+  </body>
+</html>
